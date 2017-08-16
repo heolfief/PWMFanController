@@ -1,8 +1,8 @@
 /*
- * Fume extractor code.c
+ * PWMFanController.c
  *
  * Created: 11/06/2017 14:01:29
- * Author : Heol
+ * Author : Heol FIEF
  */ 
 
 #include <avr/io.h>
