@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -9394,6 +9395,7 @@ Creative Commons
 Attribution Share-Alike 4.0 
 License 
 https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="81.28" y="-0.254" size="1.778" layer="94">Author : Heol Fief</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="66.04" y="40.64"/>
@@ -9555,7 +9557,7 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
